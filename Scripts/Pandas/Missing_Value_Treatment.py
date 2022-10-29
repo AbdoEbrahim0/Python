@@ -23,6 +23,8 @@ df.fillna({"Gender":df["Gender"].mode()[0],
           "Total":df["Total"].min()})
 
 
+greet.fillna(method='bfill',axis=1)
+
 # In[78]:
 
 
