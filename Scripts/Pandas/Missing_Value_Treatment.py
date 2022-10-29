@@ -30,7 +30,7 @@ greet.fillna('xyz',limit=2)
 
 
 # In[87]:
-
+df.interpolate()  ##get interpolate between 2  numbers above and down
 
 df.set_index("Date").interpolate("time")
 
